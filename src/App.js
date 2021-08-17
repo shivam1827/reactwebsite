@@ -8,13 +8,12 @@ const App = () => {
   return (
     <>
     <Router>
-    <Navigation/>
+      <Navigation/>
       <Switch>
         <Route path="/" component={Landing} exact></Route>
         <Route path="/pages" component={Pages}></Route>
         <Route path="/account" component={Account}></Route>
         <Route path="/documentation" component={Documentation}></Route>
-
       </Switch>
     </Router>
     </>
